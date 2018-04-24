@@ -58,17 +58,41 @@
 		F9BB08F6208940C20003997E /* zippy */ = {
 			isa = PBXGroup;
 			children = (
-				F9BB08F7208940C20003997E /* AppDelegate.h */,
-				F9BB08F8208940C20003997E /* AppDelegate.m */,
+				F9BB090D208944420003997E /* Model */,
+				F9BB0910208944620003997E /* View */,
+				F9BB090E208944490003997E /* ViewModel */,
 				F9BB08FA208940C20003997E /* ViewController.h */,
 				F9BB08FB208940C20003997E /* ViewController.m */,
 				F9BB08FD208940C20003997E /* Main.storyboard */,
 				F9BB0900208940C40003997E /* Assets.xcassets */,
 				F9BB0902208940C40003997E /* LaunchScreen.storyboard */,
 				F9BB0905208940C40003997E /* Info.plist */,
+				F9BB08F7208940C20003997E /* AppDelegate.h */,
+				F9BB08F8208940C20003997E /* AppDelegate.m */,
 				F9BB0906208940C40003997E /* main.m */,
 			);
 			path = zippy;
+			sourceTree = "<group>";
+		};
+		F9BB090D208944420003997E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9BB090E208944490003997E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9BB0910208944620003997E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9255R54EV;
+				DEVELOPMENT_TEAM = L26XJNVC9K;
 				INFOPLIST_FILE = zippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,8 +326,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9255R54EV;
+				DEVELOPMENT_TEAM = L26XJNVC9K;
 				INFOPLIST_FILE = zippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
