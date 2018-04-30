@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^onComplete) (NSString* __nullable title, NSString* __nullable message);
+
 @interface MainVM : NSObject
     @property (nonatomic, weak) NSString *zipFirst;
     @property (nonatomic, weak) NSString *zipSecond;
-    - (id)initWithZip:(NSString *)zipFirst :(NSString *)zipSecond;
+    - (id)initWithZip:(NSString *)zipFirst :(NSString *) zipSecond;
+    - (void) fetchDetailsFromNetwork :(nullable onComplete) completionHandler;
 @end
